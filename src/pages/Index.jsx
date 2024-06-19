@@ -39,7 +39,7 @@ const Index = () => {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
           />
-          <Button onClick={addTask} colorScheme="teal">
+          <Button onClick={addTask} colorScheme="red">
             Add Task
           </Button>
         </HStack>
